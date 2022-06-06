@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="demo.cpp" />
+    <ClCompile Include="win_main.cpp" />
+    <ClCompile Include="core\keyboard.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="core\mathematics.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="core\mouse.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="core\renderer.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="core\timer.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="core\window.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\pipeline.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\rasterizer.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\vertex.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demo.h" />
+    <ClInclude Include="core\keyboard.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="core\mathematics.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="core\mouse.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="core\renderer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="core\timer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="core\window.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\pipeline.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\rasterizer.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\shader.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\vertex.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{62405d0a-d67b-4273-af7d-ee43d9d6609c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{a6a74009-4573-4315-8cad-a58c86a7fed5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

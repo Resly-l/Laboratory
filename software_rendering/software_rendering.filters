@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{df86461c-6730-45a6-aef2-b84d0309f4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{94e9468d-d213-492c-b9e4-7e4b8fbf726e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{eaf48ee2-613e-42da-a688-25ce0eb1b6bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo.cpp" />
+    <ClCompile Include="win_main.cpp" />
+    <ClCompile Include="core\keyboard.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\mathematics.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\mouse.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\renderer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\timer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\window.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\pipeline.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\rasterizer.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\dynamic_structure.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\vertex.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demo.h" />
+    <ClInclude Include="core\keyboard.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\mathematics.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\mouse.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\renderer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\timer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\window.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\pipeline.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\vertex.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\rasterizer.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\dynamic_structure.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\shader.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
